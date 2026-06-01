@@ -141,7 +141,7 @@ const Wizard = ({ setAudioScript }) => {
       aadhaarError: "Aadhaar must be exactly 12 digits.",
       bankError: "Please select a bank.",
       diagnosticError: "This field is required.",
-      testHint: "Demo: 111111111111 is seeded to State Bank of India. 222222222222 is unseeded.",
+      testHint: "111111111111 is seeded to State Bank of India. 222222222222 is unseeded.",
       stepLabel: `Step ${currentStep} of 4`,
       privacy: "Your Aadhaar is never stored or transmitted."
     },
@@ -179,7 +179,7 @@ const Wizard = ({ setAudioScript }) => {
       aadhaarError: "आधार 12 अंकों का होना चाहिए।",
       bankError: "कृपया एक बैंक चुनें।",
       diagnosticError: "यह फ़ील्ड आवश्यक है।",
-      testHint: "डेमो: 111111111111 SBI से सीड। 222222222222 असीडेड।",
+      testHint: "111111111111 SBI से सीड। 222222222222 असीडेड।",
       stepLabel: `चरण 4 में से ${currentStep}`,
       privacy: "आपका आधार कभी सहेजा या प्रसारित नहीं किया जाता।"
     }
